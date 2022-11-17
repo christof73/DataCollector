@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
-        <actions_access>true</actions_access>
-        <alter_access>true</alter_access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
         <caller_access/>
-        <client_scripts_access>true</client_scripts_access>
+        <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>true</create_access>
-        <create_access_controls>false</create_access_controls>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
-        <label>Account</label>
+        <label>Collection Log</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>u_account</name>
+        <name>u_collection_log</name>
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
@@ -20,15 +20,15 @@
         <super_class/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-16 23:02:31</sys_created_on>
-        <sys_id>5193b70897531110423d318c1253af4b</sys_id>
-        <sys_name>Account</sys_name>
+        <sys_created_on>2022-11-17 03:56:03</sys_created_on>
+        <sys_id>0146f0d097971110423d318c1253af54</sys_id>
+        <sys_name>Collection Log</sys_name>
         <sys_package display_value="DataCollector" source="96c2b38497531110423d318c1253af60">96c2b38497531110423d318c1253af60</sys_package>
         <sys_policy/>
         <sys_scope display_value="DataCollector">96c2b38497531110423d318c1253af60</sys_scope>
-        <sys_update_name>sys_db_object_5193b70897531110423d318c1253af4b</sys_update_name>
-        <update_access>true</update_access>
-        <user_role/>
+        <sys_update_name>sys_db_object_0146f0d097971110423d318c1253af54</sys_update_name>
+        <update_access>false</update_access>
+        <user_role display_value="u_collection_log_user" name="u_collection_log_user">85c634d097971110423d318c1253af5c</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

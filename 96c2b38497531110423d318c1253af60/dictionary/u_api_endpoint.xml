@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="37c430dc97571110423d318c1253af3a" label="API Endpoint" max_length="40" name="u_api_endpoint" type="collection">
+        <element label="Account" max_length="32" name="u_account" reference="u_account" type="reference"/>
+        <element label="Endpoint" max_length="40" name="u_endpoint" type="url"/>
+        <index name="index">
+            <element name="u_account"/>
+        </index>
+    </element>
+</database>

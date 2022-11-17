@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0805bc5097971110423d318c1253afb5" label="Collection Profile" max_length="40" name="u_collection_profile" type="collection">
+        <element label="Account" mandatory="true" max_length="32" name="u_account" reference="u_account" type="reference"/>
+        <element display="true" label="Profile Name" mandatory="true" max_length="40" name="u_label" type="string"/>
+        <index name="index">
+            <element name="u_account"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d855349097971110423d318c1253afc5" label="Payload Schema" max_length="40" name="u_payload_schema" type="collection">
+        <element label="Profile" max_length="32" name="u_profile" reference="u_collection_profile" type="reference"/>
+        <element label="Schema" max_length="1000" name="u_schema" type="string"/>
+        <index name="index">
+            <element name="u_profile"/>
+        </index>
+    </element>
+</database>

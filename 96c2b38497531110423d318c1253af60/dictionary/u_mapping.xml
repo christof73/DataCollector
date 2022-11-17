@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="de34fc1097971110423d318c1253afde" label="Mapping" max_length="40" name="u_mapping" type="collection">
+        <element label="Document ID" max_length="32" name="u_document_id" type="document_id"/>
+        <element label="Key" max_length="40" name="u_key" type="string"/>
+        <element label="Profile" max_length="32" name="u_profile" reference="u_collection_profile" type="reference"/>
+        <index name="index">
+            <element name="u_document_id"/>
+        </index>
+        <index name="index2">
+            <element name="u_profile"/>
+        </index>
+    </element>
+</database>

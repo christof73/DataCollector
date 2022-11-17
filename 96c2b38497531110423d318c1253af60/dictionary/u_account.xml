@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5193b70897531110423d318c1253af4b" label="Account" max_length="40" name="u_account" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Access Key" max_length="40" name="u_access_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Secret Key" max_length="40" name="u_secret_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Access Key" mandatory="true" max_length="40" name="u_access_key" type="string"/>
+        <element display="true" label="API Name" max_length="40" name="u_api_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Secret Key" mandatory="true" max_length="40" name="u_secret_key" type="string"/>
     </element>
 </database>
