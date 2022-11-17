@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Collection Profile" language="en" table="u_collection_profile">
+    <sys_documentation element="" label="Collection Configuration" language="en" table="u_collection_profile">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Collection Profile</label>
+            <label>Collection Configuration</label>
             <language>en</language>
             <name>u_collection_profile</name>
-            <plural>Collection Profiles</plural>
+            <plural>Collection Configurations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-11-17 03:48:56</sys_created_on>
-            <sys_name>Collection Profile</sys_name>
+            <sys_name>Collection Configuration</sys_name>
             <sys_package display_value="DataCollector" source="96c2b38497531110423d318c1253af60">96c2b38497531110423d318c1253af60</sys_package>
             <sys_policy/>
             <sys_scope display_value="DataCollector">96c2b38497531110423d318c1253af60</sys_scope>

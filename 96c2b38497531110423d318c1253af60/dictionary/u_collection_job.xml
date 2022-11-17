@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="04eeb05c97971110423d318c1253af93" extends="sysauto_script" label="Collection Schedule" max_length="40" name="u_collection_job" type="collection">
+        <element label="Collection Configuration" max_length="32" name="u_collection_configuration" reference="u_collection_profile" type="reference"/>
+        <index name="index">
+            <element name="u_collection_configuration"/>
+        </index>
+    </element>
+</database>

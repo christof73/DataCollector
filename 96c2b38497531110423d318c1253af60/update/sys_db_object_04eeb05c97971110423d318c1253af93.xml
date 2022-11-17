@@ -10,25 +10,25 @@
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
-        <label>Payload Mapping</label>
+        <label>Collection Schedule</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>u_mapping</name>
+        <name>u_collection_job</name>
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class/>
+        <super_class display_value="Scheduled Script Execution" name="sysauto_script">daaf0e60f90211108c8bd16244dfe731</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-17 03:45:46</sys_created_on>
-        <sys_id>de34fc1097971110423d318c1253afde</sys_id>
-        <sys_name>Payload Mapping</sys_name>
+        <sys_created_on>2022-11-17 04:32:45</sys_created_on>
+        <sys_id>04eeb05c97971110423d318c1253af93</sys_id>
+        <sys_name>Collection Schedule</sys_name>
         <sys_package display_value="DataCollector" source="96c2b38497531110423d318c1253af60">96c2b38497531110423d318c1253af60</sys_package>
         <sys_policy/>
         <sys_scope display_value="DataCollector">96c2b38497531110423d318c1253af60</sys_scope>
-        <sys_update_name>sys_db_object_de34fc1097971110423d318c1253afde</sys_update_name>
+        <sys_update_name>sys_db_object_04eeb05c97971110423d318c1253af93</sys_update_name>
         <update_access>false</update_access>
-        <user_role display_value="u_mapping_user" name="u_mapping_user">9e64bc1097971110423d318c1253af0d</user_role>
+        <user_role display_value="u_collection_job_user" name="u_collection_job_user">ea2fb05c97971110423d318c1253af31</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
